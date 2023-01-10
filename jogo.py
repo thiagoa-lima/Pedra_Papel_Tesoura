@@ -39,5 +39,6 @@ def comece_o_jogo():
 
 
 
+
 if (__name__ == "__main__"):
     play_game()
