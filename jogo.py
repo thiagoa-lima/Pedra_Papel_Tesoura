@@ -8,6 +8,7 @@ print("=" * 41)
 jogar_novamente = "S"
 pontos_jogador = 0
 pontos_computador = 0
+
 while jogar_novamente == "S":
 
     escolha = 0
@@ -71,3 +72,7 @@ while jogar_novamente == "S":
         break
 
     jogar_novamente = str(input("\nQuer jogar novamente? [S] para SIM. [N] para NÃO. ").upper())
+
+    while jogar_novamente != "S" and jogar_novamente != "N":
+        print("Opção inválida")
+        jogar_novamente = str(input("Quer jogar novamente? [S] para SIM. [N] para NÃO. ").upper())
