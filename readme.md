@@ -1,4 +1,4 @@
-# Pedra Papela Tesou
+# Pedra Papela Tesoura
 Esse divertido jogo vai entreter você e toda a sua família 
 
 ## Descrição
